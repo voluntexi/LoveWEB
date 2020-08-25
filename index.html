@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<audio autoplay="autoplay" controls="controls"loop="loop" preload="auto"
+            src="1.mp3" class="music">
+      你的浏览器不支持audio标签
+</audio>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>爱情，是世界上最美好的东西</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,7 +28,11 @@
         a {
             color: #ebf7f4;
         }
-
+         .music{
+         	position: absolute;
+         	margin-top: 0;
+         	z-index: 1;
+         }
         .body--ready {
             background: -webkit-linear-gradient(top, rgb(145,167,208) 0%, rgb(246,202,201) 120%);
             background: -moz-linear-gradient(top, rgb(145,167,208) 0%, rgb(246,202,201) 120%);
